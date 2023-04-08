@@ -10,7 +10,7 @@
 
 주제: JS
 
-강의필기: [0314 KDT 강의 필기](/03_language/04_Javascript/0313_KDT_JS_DAY1.pdf)
+강의필기: [0314 KDT 강의 필기](/Lecture/multicampus_KDT_2nd/lecture_note/0314_KDT_JS_DAY2.pdf)
 
 - 페이지 목차
 

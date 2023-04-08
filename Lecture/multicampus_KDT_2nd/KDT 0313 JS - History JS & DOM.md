@@ -8,11 +8,9 @@
 
 세줄 요약: ECMAScript (JS의 표준화) / JS 실행 환경 종류 / DOM 정의&선택&조작
 
-작성 완료: Yes
-
 주제: JS
 
-강의필기: [0314 KDT 강의 필기](/03_language/04_Javascript/0314_KDT_JS_DAY2.pdf)
+강의필기: [0314 KDT 강의 필기](/Lecture/multicampus_KDT_2nd/lecture_note/0313_KDT_JS_DAY1.pdf)
 
 - 목차
 
@@ -492,4 +490,4 @@ DOM을 통해 tag에서 접근 & 동적으로 바꿀 수 있는 것들
 
 - 개발자 도구 → Elements > element 선택 → Properties에서 해당 요소의 DOM property 확인 가능
     
-    ![KakaoTalk_20230408_113947704_Edited.jpg](/03_language/04_Javascript/KDT_0313_JS_DOM_property.jpg)
+    ![KakaoTalk_20230408_113947704_Edited.jpg](/Lecture/multicampus_KDT_2nd/image/KDT_0313_JS_DOM_property.jpg)
