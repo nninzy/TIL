@@ -10,7 +10,7 @@
 
 주제: JS
 
-강의필기: [0314 KDT 강의 필기](/03_language/04_Javascript/KDT%200314%20JS%20-%20Basic%20Syntax%20of%20Javascript.md)
+강의필기: [0314 KDT 강의 필기](/03_language/04_Javascript/0313_KDT_JS_DAY1.pdf)
 
 - 페이지 목차
 
@@ -258,11 +258,7 @@ style guide에서는 `+= 1`, `-= 1`과 같이 더 분명한 표현으로 적어 
 ### 비교 연산자 (>, <. ≥, ≤)
 
 - 피연산자들 (숫자, 문자, Boolean 등)을 비교하고 결과값을 boolean으로 반환하는 연산자
-- 비교 연산자 종류
-    - >
-    - <
-    - >=
-    - <=
+
 
 ### 논리 연산자 (&&, ||, !)
 
