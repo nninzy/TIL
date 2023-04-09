@@ -1,9 +1,11 @@
 # 코코아톡 5. Git and Github
 
 강의처: 노마드코더
+
 기록 날짜: 2023/04/09
+
 세줄 요약: git의 역할 / github의 역할 / repo 생성 및 github publish
-작성 완료: Yes
+
 주제: Git&Github
 
 ### git은 왜 필요한가
