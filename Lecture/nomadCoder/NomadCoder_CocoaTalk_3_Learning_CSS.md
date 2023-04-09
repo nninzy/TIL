@@ -1,9 +1,11 @@
 # 코코아톡 3. Learning CSS
 
 강의처: 노마드코더
+
 기록 날짜: 2023/04/05 → 2023/04/08
+
 세줄 요약: CSS selector와 pseudo selector (state, combinator) / display:flex와 main-axis & cross-axis / position: static, fixed, relative, absolute
-작성 완료: Yes
+
 주제: CSS
 
 ### CSS를 HTML 페이지에 추가하는 방법
