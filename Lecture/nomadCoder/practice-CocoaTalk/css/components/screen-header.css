@@ -1,0 +1,37 @@
+.screen-header {
+    box-sizing: border-box;
+    width: 100vw;
+    display: flex;
+    padding: 20px var(--padding-x);
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 25px;
+    background-color: white;
+}
+.screen-header__title {
+    font-size: 30px;
+    font-weight: 600;
+}
+.screen-header__icons {
+    display: flex;
+}
+.screen-header__icons span {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 100%;
+    transition: background-color 0.3s ease-in-out;
+}
+.screen-header__icons span:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.screen-header__icons span div {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
