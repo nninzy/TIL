@@ -10,10 +10,16 @@
     font-size: 20px;
     opacity: 0.4;
 }
+
+.welcome-main {
+    display: flex;
+    flex-direction: column;
+    padding: 0px var(--padding-x);
+}
+
 #login-form {
     display: flex;
     flex-direction: column;
-    padding: 0px 25px;
 }
 #login-form input::placeholder {
     color: rgba(0, 0, 0, 0.3);
@@ -44,13 +50,9 @@
 }
 .login-form__btn {
     margin: 10px 0px 20px 0px;
-    text-decoration: none;
-    color: inherit;
 }
 .login-form__a {
     text-align: center;
-    text-decoration: none;
-    color: inherit;
 }
 .login-form__a:hover {
     text-decoration: underline;
