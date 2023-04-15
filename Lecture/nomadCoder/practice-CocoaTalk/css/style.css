@@ -6,6 +6,7 @@
 @import "components/nav.css";
 @import "components/badges.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -16,4 +17,18 @@ body {
 }
 .screen-main {
     margin-top: 115px;
+}
+.friends__accordion {
+    padding: 0 var(--padding-x);
+}
+.friends__accordion:hover {
+    background-color: var(--ltgray);
+}
+.accordion__click {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-top: 0.3px solid var(--dkgray);
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
 }

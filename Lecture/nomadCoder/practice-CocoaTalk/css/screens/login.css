@@ -45,8 +45,14 @@
     background-color: var(--ltgray);
     transition: background-color 0.3s ease-in-out;
 }
-.login-form__submit:hover, .login-form__btn:hover {
+.login-form__submit:hover,
+.login-form__btn:hover {
     background-color: var(--yellow);
+}
+.login-form__submit:focus,
+.login-form__btn:focus {
+    background-color: var(--yellow);
+    outline: none;
 }
 .login-form__btn {
     margin: 10px 0px 20px 0px;
@@ -55,5 +61,9 @@
     text-align: center;
 }
 .login-form__a:hover {
+    text-decoration: underline;
+}
+.login-form__a:focus {
+    outline: none;
     text-decoration: underline;
 }

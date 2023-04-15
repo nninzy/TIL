@@ -12,6 +12,10 @@
 }
 .nav-list li {
     position: relative;
+    transition: color 0.3s ease-in-out;
+}
+.nav-list li:hover {
+    color: var(--dkgray);
 }
 .mav-list__chat-badge {
     position: absolute;

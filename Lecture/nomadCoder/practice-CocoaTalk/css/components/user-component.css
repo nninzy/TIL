@@ -1,0 +1,63 @@
+.user-component {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px var(--padding-x);
+}
+.user-component:hover {
+    background-color: var(--ltgray);
+}
+.user-component__col {
+    display: flex;
+    align-items: center;
+}
+/* default 사이즈 profile (chat-list.html)*/
+.user-component__profile__img {
+    width: 65px;
+    height: 65px;
+    margin-right: 15px;
+    border-radius: 40%;
+    object-fit: cover;
+}
+.user-component__profile__detail {
+    width: 60vw;
+}
+.user-component__profile__title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.user-component__profile__subtitle {
+    font-size: 18px;
+    color: var(--dkgray);
+    font-weight: bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/* large 사이즈 profile (friends.html) */
+.user-component__profile__img--lg {
+    width: 70px;
+    height: 70px;
+}
+.user-component__profile__title--lg {
+    font-size: 23px;
+}
+.user-component__profile__subtitle--lg {
+    font-size: 20px;
+}
+/* small 사이즈 profile (friends.html) */
+.user-component__profile__img--sm {
+    width: 57px;
+    height: 57px;
+}
+.user-component__profile__title--sm {
+    font-size: 21px;
+}
+.user-component__profile__subtitle--sm {
+    font-size: 15px;
+}
+
+/* 두번째 column 디테일별 스타일 */
+.user-component__channel__detail{
+    margin-right: 10px;
+}

@@ -28,7 +28,7 @@
     transition: background-color 0.3s ease-in-out;
 }
 .screen-header__icons span:hover {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: var(--dkgray);
 }
 .screen-header__icons span div {
     position: absolute;
