@@ -1,0 +1,31 @@
+.setting-list {
+    padding-bottom: 30px;
+}
+.border-bottom {
+    border-bottom: 1px solid var(--dkgray);
+}
+.setting-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px var(--padding-x);
+    font-size: 22px;
+    border-bottom: 1px solid var(--ltgray);
+    cursor: pointer;
+}
+.setting-item:last-child {
+    border: none;
+}
+.setting-item:hover {
+    background-color: var(--ltgray);
+}
+.setting-item__column {
+    display: flex;
+    width: 50%;
+}
+.setting-item i {
+    margin-right: 20px;
+}
+.setting-item__update {
+    color: var(--dkgray);
+}
