@@ -1,0 +1,11 @@
+.more__phone-caution {
+    margin-left: 5px;
+    color: red;
+}
+.more__user-chat {
+    font-size: 35px;
+    transition: color 0.3s ease-in-out;
+}
+.more__user-chat:hover {
+    color: var(--dkgray);
+}

@@ -43,15 +43,85 @@
         <header class="screen-header">
             <h1 class="screen-header__title">More</h1>
             <div class="screen-header__icons">
-                <span><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
-                <span><i class="fa-solid fa-music fa-xl"></i></span>
-                <span>
-                    <div class="notice-badge"></div>
-                    <i class="fa-solid fa-gear fa-xl"></i>
-                </span>
+                <span><a href="#"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a></span>
+                <span><a href="#"><i class="fa-solid fa-music fa-xl"></i></a></span>
+                <span><a href="settings.html"><div class="notice-badge"></div><i class="fa-solid fa-gear fa-xl"></i></a></span>
             </div>
         </header>
 		<main class="screen-main">
+        <div class="user-component">
+            <a class="user-component__col" href="#">
+                <img class="user-component__profile__img user-component__profile__img--lg" src="https://avatars.githubusercontent.com/u/116625040?v=4" alt=""/>
+                <div class="user-component__profile__detail">
+                    <h4 class="user-component__profile__title user-component__profile__title--lg">Minjee Kim</h4>
+                    <h6 class="user-component__profile__subtitle user-component__profile__subtitle--lg">+82 0000-0000<i class="fa-solid fa-circle-exclamation more__phone-caution"></i></h6>
+                </div>
+            </a>
+            <a class="user-component__col" href="#">
+                <i class="fa-regular fa-message more__user-chat"></i>
+            </a>
+        </div>
+        <section class="icons">
+            <ul class="icons-list">
+                <li>
+                    <a class="icons-list__item" href="#">
+                        <i class="fa-regular fa-calendar-check"></i>
+                        <span>Calendar</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="icons-list__item" href="#">
+                        <div class="position-relative">
+                            <div class="notice-badge position-absolute--topright"></div>
+                            <i class="fa-regular fa-hard-drive"></i>
+                        </div>
+                        <span>Talk Drive</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="icons-list__item" href="#">
+                        <i class="fa-regular fa-face-kiss-beam"></i>
+                        <span>Emoticons</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="icons-list__item" href="#">
+                        <i class="fa-solid fa-brush"></i>
+                        <span>Themes</span>
+                    </a>
+                </li>  
+            </ul>
+        </section>
+        <hr>
+        <section class="icons">
+            <h4>Suggestions</h4>
+            <ul class="icons-list">
+                <li>
+                    <a class="icons-list__item" href="#">
+                        <i class="fa-solid fa-quote-right icons-list__item__icon--yellow"></i>
+                        <span>Kakao Story</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="icons-list__item" href="#">
+                        <i class="fa-solid fa-otter icons-list__item__icon--yellow"></i>
+                        <span>Kakao friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="icons-list__item" href="#">
+                        <i class="fa-solid fa-gamepad icons-list__item__icon--yellow"></i>
+                        <span>Friends Gem</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="icons-list__item" href="#">
+                        <i class="fa-solid fa-gifts icons-list__item__icon--yellow"></i>
+                        <span>Shopping</span>
+                    </a>
+                </li>  
+            </ul>
+        </section>
 		</main>
 		<script src="https://kit.fontawesome.com/f62967ee76.js" crossorigin="anonymous"></script>
 	</body>

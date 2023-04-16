@@ -1,0 +1,14 @@
+
+.friends__accordion {
+    padding: 0 var(--padding-x);
+}
+.friends__accordion:hover {
+    background-color: var(--ltgray);
+}
+.accordion__click {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+}

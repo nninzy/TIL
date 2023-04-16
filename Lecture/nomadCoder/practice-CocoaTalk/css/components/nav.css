@@ -1,14 +1,15 @@
 .nav {
     width: 100vw;
+    padding: 30px 0px;
     position: fixed;
     bottom: 0px;
+    border-top: 0.1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--ltgray);
+    z-index: 2;
 }
 .nav-list {
     display: flex;
     justify-content: space-around;
-    padding: 30px 0px;
-    border-top: 0.1px solid rgba(0, 0, 0, 0.1);
-    background-color: var(--ltgray);
 }
 .nav-list li {
     position: relative;

@@ -1,0 +1,37 @@
+.icons {
+    padding: 20px var(--padding-x);
+}
+.icons > h4 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.icons-list {
+    display: flex;
+    justify-content: space-between;
+}
+.icons-list__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: color 0.3s ease-in-out;
+}
+.icons-list__item:hover {
+    color: var(--dkgray);
+}
+.icons-list__item i {
+    display: block;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 40px;
+}
+.icons-list__item span {
+    font-size: 18px;
+    line-height: 20px;
+}
+.icons-list__item__icon--yellow {
+    background-color: var(--yellow);
+}
