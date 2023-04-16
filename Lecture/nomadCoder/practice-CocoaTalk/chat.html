@@ -6,8 +6,8 @@
 		<title>Search - KakaoTalk</title>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
-	<body>
-		<div class="status-bar">
+	<body class="chat-background">
+		<div class="status-bar chat-background">
 			<div class="status-bar__column">
 				<span>No Service</span>
 				<i class="fa-solid fa-wifi"></i>
@@ -22,7 +22,7 @@
 				<i class="fa-solid fa-bolt-lightning"></i>
 			</div>
 		</div>
-		<header class="detail-header">
+		<header class="detail-header chat-background">
 			<span class="detail-header__left-btn"><a href="chat-list.html"><i class="fa-solid fa-chevron-left fa-xl"></i></a></span>
 			<h1 class="detail-header__title">Minjee Kim</h1>
 			<div class="detail-header__right-btn">
@@ -30,8 +30,101 @@
 				<span class="detail-header__right-btn__bars"><a href="#"><i class="fa-solid fa-bars fa-xl"></i></a></span>
 			</div>
 		</header>
-		<main class="screen-main">
-
+		<div class="reply">
+			<div class="reply__column reply__column--left">
+				<i class="fa-regular fa-square-plus"></i>
+			</div>
+			<form class="reply__column reply__column--right">
+				<input type="text" placeholder="Write a message">
+				<i class="fa-regular fa-face-kiss-wink-heart"></i>
+				<button><i class="fa-solid fa-arrow-up"></i></button>
+			</form>
+		</div>
+		<main class="detail-main chat">
+			<div class="chat__timestamp">Sunday April 16, 2023</div>
+			<div class="chat__message">
+				<img src="https://avatars.githubusercontent.com/u/116625040?v=4" alt="">
+				<div class="chat__message-column">
+					<span>Minjee Kim</span>
+					<div class="chat__message__detail">
+						<span class="chat__message__detail__text">Hi!</span>
+						<span class="chat__message__detail__time">21:27</span>
+					</div>
+				</div>
+			</div>
+			<div class="chat__message chat__message--own">
+				<div class="chat__message-column">
+					<div class="chat__message__detail chat__message__detail--own">
+						<span class="chat__message__detail__text chat__message__detail__text--own">Nice to meet you!</span>
+						<span class="chat__message__detail__time">21:27</span>
+					</div>
+				</div>
+			</div>
+			<div class="chat__message">
+				<img src="https://avatars.githubusercontent.com/u/116625040?v=4" alt="">
+				<div class="chat__message-column">
+					<span>Minjee Kim</span>
+					<div class="chat__message__detail">
+						<span class="chat__message__detail__text">카카오톡을 만든 소감이 어때?</span>
+						<span class="chat__message__detail__time">21:35</span>
+					</div>
+				</div>
+			</div>
+			<div class="chat__message chat__message--own">
+				<div class="chat__message-column">
+					<div class="chat__message__detail chat__message__detail--own">
+						<span class="chat__message__detail__text chat__message__detail__text--own">너무 좋아 여기에 Javascript랑 <br>서버까지 추가하면 얼마나 좋을까 기대돼!</span>
+						<span class="chat__message__detail__time">21:45</span>
+					</div>
+				</div>
+			</div>
+			<div class="chat__timestamp">Friday April 21, 2023</div>
+			<div class="chat__message">
+				<img src="https://avatars.githubusercontent.com/u/116625040?v=4" alt="">
+				<div class="chat__message-column">
+					<span>Minjee Kim</span>
+					<div class="chat__message__detail">
+						<span class="chat__message__detail__text">그럼 다음에는 뭘 할거야?</span>
+						<span class="chat__message__detail__time">10:27</span>
+					</div>
+				</div>
+			</div>
+			<div class="chat__message chat__message--own">
+				<div class="chat__message-column">
+					<div class="chat__message__detail chat__message__detail--own">
+						<span class="chat__message__detail__text chat__message__detail__text--own">크롬 모멘텀 클론 코딩해야지!</span>
+						<span class="chat__message__detail__time">12:14</span>
+					</div>
+				</div>
+			</div>
+			<div class="chat__message">
+				<img src="https://avatars.githubusercontent.com/u/116625040?v=4" alt="">
+				<div class="chat__message-column">
+					<span>Minjee Kim</span>
+					<div class="chat__message__detail">
+						<span class="chat__message__detail__text">그 다음에는?</span>
+						<span class="chat__message__detail__time">14:36</span>
+					</div>
+				</div>
+			</div>
+			<div class="chat__message chat__message--own">
+				<div class="chat__message-column">
+					<div class="chat__message__detail chat__message__detail--own">
+						<span class="chat__message__detail__text chat__message__detail__text--own">유튜브 클론코딩!!!</span>
+						<span class="chat__message__detail__time">21:27</span>
+					</div>
+				</div>
+			</div>
+			<div class="chat__message">
+				<img src="https://avatars.githubusercontent.com/u/116625040?v=4" alt="">
+				<div class="chat__message-column">
+					<span>Minjee Kim</span>
+					<div class="chat__message__detail">
+						<span class="chat__message__detail__text">할게 산더미구나!</span>
+						<span class="chat__message__detail__time">21:27</span>
+					</div>
+				</div>
+			</div>
 		</main>
 		<script src="https://kit.fontawesome.com/f62967ee76.js" crossorigin="anonymous"></script>
 	</body>

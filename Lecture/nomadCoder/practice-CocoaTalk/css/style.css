@@ -9,6 +9,7 @@
 @import "components/detail-header.css";
 @import "components/user-component.css";
 @import "components/icons.css";
+@import "components/reply.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -16,6 +17,7 @@
 @import "screens/search-chat.css";
 @import "screens/more.css";
 @import "screens/settings.css";
+@import "screens/chat.css";
 
 body {
     box-sizing: border-box;

@@ -4,11 +4,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px var(--padding-x);
+    padding: 15px var(--padding-x);
     position: fixed;
     top: 25px;
     background-color: white;
 }
+detail-header i {
+    transition: color 0.3s ease-in-out;
+}
+.detail-header i:hover {
+    color: var(--dkgray);
+}
+
 .detail-header__left-btn,
 .detail-header__title,
 .detail-header__right-btn {
