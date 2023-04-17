@@ -9,6 +9,7 @@
 .welcome-header p {
     font-size: 20px;
     opacity: 0.4;
+    line-height: 30px;
 }
 
 .welcome-main {

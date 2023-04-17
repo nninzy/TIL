@@ -30,6 +30,7 @@
     font-size: 18px;
     color: var(--dkgray);
     font-weight: bold;
+    line-height: 20px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -60,4 +61,14 @@
 /* 두번째 column 디테일별 스타일 */
 .user-component__channel__detail{
     margin-right: 10px;
+}
+.user-component__chat-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.user-component__chat-list span {
+    margin-bottom: 10px;
+    color: var(--dkgray);
+    font-size: 15px;
 }

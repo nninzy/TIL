@@ -21,11 +21,19 @@
 }
 .setting-item__column {
     display: flex;
-    width: 50%;
 }
 .setting-item i {
     margin-right: 20px;
 }
+.setting-item span {
+    margin-right: 10px;
+}
+.setting-item div {
+    display: flex;
+}
 .setting-item__update {
     color: var(--dkgray);
+}
+.setting-item:first-child .setting-item__update:hover {
+    text-decoration: underline;
 }
